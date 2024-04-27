@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/multimedia/fondomain.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    width: 100%;
+    background-color: transparent;
+    transition: all 0.8s ease;
+    background-color: #0000005b;
+}
+
+.headText{
+    color: white;
+    display: flex;
+    justify-content: center;
+    transition: all 0.8s ease;
+}
+
+header.headerScroll .headText{
+    display: none;
+
+}
+
+header.headerScroll{
+    display: flex;
+    height: 100px;
+    background-color: #ffffff9c;
+}
+
+header.headerScroll .logoWord h1{
+    color: black;
+    font-size: 50px;
+}
+
+header.headerScroll .headLinks a{
+    color: black;
+    display: flex;
+}
+
+header.headerScroll .headLinks i{
+    color: black;
+    display: flex;
+
+}
+
+header.headerScroll ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.headLogo h1{
+    display: flex;
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+    text-decoration: none;
+    font-size: 120px;
+    transition: all 0.8s ease;
+}
+
+.logoWord{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+}
+
+.headLinks a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: none;
+}
+
+.headLinks i{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 22px;
+    color: white;
+}
+
+.main{
+    padding-top: 200px;
+}
+
+.mainTitle {
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.mainTitle h1{
+    border: solid 3px transparent;
+    border-radius: 40px;
+    padding: 10px;
+    background-color: #0000005b;
+    box-shadow: 0 0 1rem black;
+
+}
+
+.footer{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+}
+
